@@ -1,0 +1,6 @@
+﻿namespace xUnitDemo;
+
+public interface IOrderRepository
+{
+    void AddOrder(Order order);
+}
